@@ -48,7 +48,7 @@ from streamlit.runtime.caching.hashing import HashFuncsDict
 from streamlit.runtime.metrics_util import gather_metrics
 from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx
 from streamlit.runtime.stats import CacheStat, CacheStatsProvider
-from streamlit.vendor.pympler.asizeof import asizeof
+from streamlit.vendor.pympler import asizeof
 
 _LOGGER = get_logger(__name__)
 
